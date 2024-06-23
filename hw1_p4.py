@@ -1,0 +1,11 @@
+input_height1 = input("Input the height of the 1st ball: ")
+input_mass1 = input("Input the mass of the 1st ball: ")
+input_mass2 = input("Input the mass of the 2nd ball: ")
+height1 = int(input_height1)
+mass1 = int(input_mass1)
+mass2 = int(input_mass2)
+g = 9.8
+v1 = (2 * g * height1) ** (1/2)
+v2 = 2 * mass1 * V1 / (mass1 + mass2)
+print("The velocity of the 1st ball after slide: ", v1, "m/s")
+print("The velocity of the 2nd ball after collision:", v2, "m/s")

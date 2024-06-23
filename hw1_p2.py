@@ -1,0 +1,12 @@
+input_force = input("Input the force: ") #input()的含意為何? #一定要空格?
+input_mass1 = input("Input the mass of m1: ")
+input_distance = input("Input the distance: ")
+force = int(input_force)
+mass1 = int(input_mass1)
+dist = int(input_distance)
+G = 6.67 * 10 ** -11
+c = 299792458
+mass2 = force * dist ** 2 / (G * mass1)
+energy2 = mass2 * c ** 2
+print("The mass of m2 =", mass2)
+print("The energy of m2 =", energy2)
